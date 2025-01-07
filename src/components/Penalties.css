@@ -1,0 +1,43 @@
+.penalties {
+    background-color: #333;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .penalty-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .penalty-buttons button {
+    background-color: #800000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .penalty-info {
+    margin-top: 20px;
+  }
+  
+  .penalty-total {
+    font-weight: bold;
+    color: red;
+  }
+  
+  .disqualify-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+  }

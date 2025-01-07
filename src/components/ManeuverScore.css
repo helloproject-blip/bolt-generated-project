@@ -1,0 +1,29 @@
+.maneuver-score {
+    background-color: #333;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .score-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .score-controls button {
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .score-controls span {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }

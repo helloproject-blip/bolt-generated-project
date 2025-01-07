@@ -1,0 +1,17 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #282c34;
+    color: white;
+    min-height: 100vh;
+  }
+  
+  .content {
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+  }
