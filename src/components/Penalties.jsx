@@ -1,7 +1,7 @@
 import React from 'react';
     import './Penalties.css';
 
-    function Penalties({ onPenaltyChange, appliedPenalties }) {
+    function Penalties({ onPenaltyChange }) {
       const penalties = [0.5, 1, 3, 5];
 
       return (
@@ -15,7 +15,6 @@ import React from 'react';
             ))}
           </div>
           <div className="penalty-info">
-            <p>Applied Penalties: <span className="penalty-total">Total: {appliedPenalties.toFixed(1)}</span></p>
             <button className="disqualify-button">Disqualify Entry</button>
           </div>
         </div>

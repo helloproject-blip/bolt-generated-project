@@ -1,7 +1,8 @@
 import React from 'react';
+    import PenaltyDisplay from './PenaltyDisplay';
     import './ManeuverScore.css';
 
-    function ManeuverScore({ score, onScoreChange }) {
+    function ManeuverScore({ score, onScoreChange, penalties, onRemovePenalty }) {
       const handleIncrement = () => {
         onScoreChange(score + 0.5);
       };
@@ -18,6 +19,7 @@ import React from 'react';
             <span>{score.toFixed(1)}</span>
             <button onClick={handleIncrement}>+</button>
           </div>
+          <PenaltyDisplay penalties={penalties} onRemovePenalty={onRemovePenalty} />
         </div>
       );
     }
